@@ -1,0 +1,19 @@
+[+MainIntro]
+Some text here
+[]
+
+[+KingCounty]
+Some text here
+[]
+
+[+ShelterSurge]
+Some text here
+[]
+
+[+CityofSeattle]
+Some text here
+[]
+
+[+Ending]
+Some text here
+[]

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <% if (!json.project.embedded) { %>
+      <%= t.include("partials/_dataLayer.html") %>
+      <script src="https://seattle-times.zeustechnology.com/main.js" async></script>
+      <script src="https://www.seattletimes.com/wp-content/plugins/st-advertising/dist/st-projects-bundle.js" async></script>
+    <% } %>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtm.html") %>
+    <% } %>
+    <script src="https://kit.fontawesome.com/9d53be7224.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+  <body>
+    <% if (json.project.production && !json.project.embedded) { %>
+      <%= t.include("partials/_gtmNoScript.html") %>
+    <% } %>
+    <responsive-child>
+      <% doc = archieml.PH_Promises_AML %>
+
+      <%= t.include("partials/_nav.html") %>
+      <!-- content goes here -->
+      <div class="stickyNav">
+        <div class="navtext">
+          <div class="grid"><b>Promises</b></div>
+          <div class="grid">Kept <span id="kept"></span></div>
+          <div class="grid">Partial <span id="partial"></span></div>
+          <div class="grid">Broken <span id="broken"></span></div>
+        </div>
+      </div>
+
+      <%=  t.include("partials/_ad.html", {number: 1}) %>
+
+      <div class="headTreatment">
+        Some header idea here
+
+        <h1>Promises made, promises kept</h1>
+      </div>
+
+      <div class="storyText">
+        <p class="byline">By XXX</p>
+        <p class="staff-position">Seattle Times staff reporter</p>
+        <p class="publish-date">Published Jan. 30, 2022</p>
+
+
+      <% doc.MainIntro.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+
+        <div class="furniture">
+          <div class="labLogo"><a href="https://www.seattletimes.com/seattle-news/homeless/" rel="nofollow noreferrer noopener" target="_blank"><img src="assets/PHLogo_HiRes.png" alt="Seattle Times Project Homeless logo"></a></div>
+          <div class="labText">
+            The Seattle Times’ <a href="https://www.seattletimes.com/seattle-news/homeless/" rel="nofollow noreferrer" target="_blank">Project Homeless</a> is funded by BECU,
+             The Bernier McCaw Foundation, Campion Foundation, the Paul G. Allen Family Foundation, Raikes Foundation, Schultz Family Foundation, Seattle Foundation,
+             Starbucks and the University of Washington. The Seattle Times maintains editorial control over Project Homeless content.
+          </div>
+        </div>
+      </div>
+
+
+      <%=  t.include("partials/_ad.html", {number: 3}) %>
+
+      <div class="storyText">
+
+      <h2 class="header">King County</h2>
+      <% doc.KingCounty.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
+
+      <%= t.include("partials/promises/_promise1.html") %>
+
+      <%= t.include("partials/promises/_promise2.html") %>
+
+      <%= t.include("partials/promises/_promise3.html") %>
+
+
+
+
+
+      <div class="storyText">
+        <%= t.include("partials/_marketing.html", {type: "subscribe", placement: "footer"}) %>
+
+        <h2 class="header">City of Seattle</h2>
+      <% doc.CityofSeattle.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
+      <%= t.include("partials/promises/_promise4.html") %>
+
+      <%= t.include("partials/promises/_promise5.html") %>
+
+      <%= t.include("partials/promises/_promise6.html") %>
+
+
+
+
+      <div class="storyText">
+      <h2 class="sub_header">Shelter surge</h2>
+      <% doc.ShelterSurge.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
+      <%= t.include("partials/promises/_promise7.html") %>
+
+      <%= t.include("partials/promises/_promise8.html") %>
+
+      <%= t.include("partials/promises/_promise9.html") %>
+
+      <div class="storyText">
+      <% doc.CityofSeattle.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
+      <%= t.include("partials/promises/_promise10.html") %>
+
+      <%= t.include("partials/promises/_promise11.html") %>
+
+
+      <div class="storyText">
+      <% doc.Ending.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
+      <%=  t.include("partials/_ad.html", {number: 2}) %>
+
+      <%=   t.include("partials/_dontMiss.html") %>
+
+      <%= t.include("partials/_navBottom.html") %>
+
+    </responsive-child>
+
+    <script type="text/javascript" src="assets/modernizr.js"></script>
+    <script src="assets/anim-event.min.js"></script>
+    <script src="assets/leader-line.min.js" async></script>
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

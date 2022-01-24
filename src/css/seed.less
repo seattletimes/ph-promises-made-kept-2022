@@ -1,0 +1,292 @@
+@import "seattletimes";
+
+// @import "pfold";
+// @import "demo";
+// @import "custom1";
+//
+// .moveMe {
+//   position: absolute;
+//   top: 30px;
+//   right: 10px;
+// }
+
+@highlight: @df-orange-highlight;
+
+.headTreatment {
+  max-width: 900px;
+  margin: auto;
+
+  h1 { text-align: center; }
+}
+
+.furniture {
+  margin: 20px auto;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: @df-sans;
+
+  .labLogo {
+    width: 200px;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    img { width: 100%; }
+
+    @media @mobile { display: block; width: 130px; padding-right: 0; margin: 10px auto;}
+  }
+  .labText {
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    width:  ~"calc(100% - 205px)";
+    a { color: #0777b3; }
+    @media @mobile { display: block; width: 100%; }
+  }
+}
+
+
+.stickyNav {
+  position: fixed;
+  top: 0;
+  background-color: #ccc;
+  padding: 5px;
+  width: 100%;
+  -webkit-transition: opacity .7s;
+  transition: opacity .7s;
+  // opacity: 0;
+
+  &.show {
+    opacity: 1;
+  }
+  // border-bottom: 2px solid
+  .navtext {
+    max-width: 900px;
+    margin: auto;
+    font-family: @df-sans;
+    font-size: 16px;
+
+    .grid {
+      display: inline-block;
+    }
+
+    span {
+
+      .square {
+        width: 13px;
+        height: 13px;
+        margin-right: 3px;
+        line-height: 0.75em;
+        color: white;
+        text-align: center;
+        // background-color: blue;
+        display: inline-block;
+      }
+      &#kept { .square { background-color: green; } }
+      &#partial { .square { background-color: green; } }
+      &#broken { .square { background-color: red; } }
+    }
+  }
+}
+
+.storyText {
+  max-width: 700px;
+  margin: auto;
+}
+
+.promise {
+  width: 100%;
+  font-size: 0px;
+  // height: 100vh;
+  margin-top: 10vh;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #efefef;
+
+  .status {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 16px;
+
+    &.yes { color: green; }
+    &.partial { color: orange; }
+    &.no { color: red; }
+  }
+
+  .goal, .kept {
+    font-size: 20px;
+
+    // width: 50%;
+    // display: inline-block;
+    vertical-align: top;
+    // position: -webkit-sticky;
+    // position: sticky;
+    // top: 30px;
+
+    // max-width: 700px;
+    // margin: auto;
+    // margin-bottom: 20vh;
+  }
+  .text {
+    font-size: 20px;
+    // width: 50%;
+  }
+  .goal {
+    // background-color: lightblue;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: @df-sans;
+
+    &.blue { background-color: #7d9199; }
+    &.green { background-color: #6d7c79; }
+
+    .source {
+      // color: @df-middle-gray;
+      // color: white;
+      font-style: italic;
+      font-size: 14px;
+      font-weight: normal;
+      a { color: white; }
+    }
+    .text {
+      font-size: 2em;
+      max-width: 1000px;
+      margin: auto;
+      // width: 50%;
+    }
+  }
+  .kept {
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    text-align: center;
+    // font-weight: bold;
+    font-family: @df-sans;
+    -webkit-transition: opacity .7s;
+    transition: opacity .7s;
+    opacity: 0;
+
+    .text {
+      max-width: 700px;
+      margin: auto;
+      // text-align: left;
+    }
+
+
+    &.show {
+      opacity: 1;
+    }
+
+
+
+    .line {
+      margin-top: 15px;
+      // font-size: 1.5em;
+      display: block;
+
+      &.bump { margin-top: 30px; }
+
+      div {
+        .highlight { color: @highlight; }
+
+        &.hotel {
+          letter-spacing: 2px;
+          font-size: 1.5em;
+          .seven {
+            border-bottom: 1px solid black;
+            position: relative;
+            display: inline-block;
+            margin-right: 5px;
+          }
+          .seven::after {
+            content: "GOAL";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            bottom: 0;
+            height: 0px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+          }
+          .extra {
+            letter-spacing: 2px;
+            border-bottom: 1px solid black;
+            position: relative;
+            display: inline-block;
+          }
+          .extra::after {
+            content: "+";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            bottom: 0;
+            height: 11px;
+            text-align: center;
+          }
+        }
+
+      }
+    }
+
+
+  }
+
+}
+
+.barCon {
+
+}
+
+.barChart {
+  width: 100%;
+  height: 40px;
+  background-color: #aaa;
+
+  .bar {
+    width: 100%;
+    height: 100%;
+
+    &.Eight59 {
+      background-size: 53.69% 100%;
+      background-repeat: no-repeat;
+      background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(0,#750F0F));
+      background-image: -webkit-linear-gradient(top,transparent,#750F0F 0);
+      background-image: linear-gradient(180deg,transparent,#750F0F 0);
+    }
+
+    &.One80 {
+      background-size: 11.25% 100%;
+      background-repeat: no-repeat;
+      background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(0,@highlight));
+      background-image: -webkit-linear-gradient(top,transparent,@highlight 0);
+      background-image: linear-gradient(180deg,transparent, @highlight 0);
+    }
+
+  }
+
+  .valueLines {
+    position: relative;
+    font-size: 14px;
+    color: #efefef;
+
+      each(range(8), {
+        .each:nth-child(@{value}) {
+          border-left: 1px solid #efefef;
+          padding: 10px 0px 9px 3px;
+          position: absolute;
+          left: (@value * 12.5%);
+        }
+      });
+
+      .each:nth-child(8) {
+        color: #aaa;
+      }
+  }
+}
