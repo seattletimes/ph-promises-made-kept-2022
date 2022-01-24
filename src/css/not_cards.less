@@ -1,0 +1,52 @@
+html { scroll-behavior: smooth; }
+
+.headTreatment {
+  max-width: 900px;
+  margin: auto;
+
+  h1 {
+    text-align: center;
+    padding: 0px 10px;
+    @media @desktop-up { font-size: 45px; }
+  }
+}
+
+.storyText {
+  max-width: 700px;
+  padding: 0px 10px;
+  margin: auto;
+
+  h2 {
+    text-align: center;
+    @media @desktop-up { font-size: 30px; }
+    // &.blue { color: #7d9199; }
+    // &.green { color: #6d7c79; }
+    // &.purple { color: #7d8399; }
+  }
+}
+
+.furniture {
+  margin: 20px auto;
+  padding: 20px 0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: @df-sans;
+
+  .labLogo {
+    width: 200px;
+    padding-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    img { width: 100%; }
+
+    @media @mobile { display: block; width: 130px; padding-right: 0; margin: 10px auto;}
+  }
+  .labText {
+    font-size: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    width:  ~"calc(100% - 205px)";
+    a { color: #0777b3; }
+    @media @mobile { display: block; width: 100%; }
+  }
+}

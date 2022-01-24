@@ -2,18 +2,46 @@
 Some text here
 []
 
-[+KingCounty]
+[+PromiseOne]
 Some text here
 []
 
-[+ShelterSurge]
+[+PromiseTwo]
 Some text here
 []
 
-[+CityofSeattle]
+[+PromiseThree]
 Some text here
 []
 
-[+Ending]
+[+PromiseFour]
+Some text here
+[]
+
+[+PromiseFive]
+Some text here
+[]
+
+[+PromiseSix]
+Some text here
+[]
+
+[+PromiseSeven]
+Some text here
+[]
+
+[+PromiseEight]
+Some text here
+[]
+
+[+PromiseNine]
+Some text here
+[]
+
+[+PromiseTen]
+Some text here
+[]
+
+[+PromiseEleven]
 Some text here
 []

@@ -41,10 +41,11 @@ var line;
                 enabled: true,
                 handler: function(direction) {
                   let chosenID = $(element).data('promise');
+                  let promiseNumber = $(element).data('number');
                   if(direction === "down") {
                     console.log("hello!");
                     $( element ).find('.kept').addClass('show');
-                    $(`.navtext #${chosenID}`).append("<div class='square'>1</div>");
+                    $(`.navtext #${chosenID}`).append(`<a href="#promise${promiseNumber}"><div class='square'>${promiseNumber}</div></a>`);
 
                   }
                   else if (direction === "up") {
@@ -53,7 +54,7 @@ var line;
 
                   }
                 },
-                offset: '25%'
+                offset: '50%'
             });
 
             // new Waypoint({
@@ -90,7 +91,12 @@ function docReady(fn) {
 docReady(function() {
   // makeLeaderLines();
 
-  makeWaypoints();
+  setTimeout(() => {
+    makeWaypoints();
+  }, 2500);
+
+
+
 
   // document.getElementById('ex-130-show').addEventListener('click', function(event) {
   //   console.log("hi");

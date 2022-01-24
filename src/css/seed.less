@@ -1,59 +1,18 @@
 @import "seattletimes";
+@import "not_cards";
 
-// @import "pfold";
-// @import "demo";
-// @import "custom1";
-//
-// .moveMe {
-//   position: absolute;
-//   top: 30px;
-//   right: 10px;
-// }
 
-@highlight: @df-orange-highlight;
-
-.headTreatment {
-  max-width: 900px;
-  margin: auto;
-
-  h1 { text-align: center; }
-}
-
-.furniture {
-  margin: 20px auto;
-  padding: 20px 0;
-  border-top: 1px solid #e0e0e0;
-  border-bottom: 1px solid #e0e0e0;
-  font-family: @df-sans;
-
-  .labLogo {
-    width: 200px;
-    padding-right: 10px;
-    display: inline-block;
-    vertical-align: middle;
-    img { width: 100%; }
-
-    @media @mobile { display: block; width: 130px; padding-right: 0; margin: 10px auto;}
-  }
-  .labText {
-    font-size: 15px;
-    vertical-align: middle;
-    display: inline-block;
-    width:  ~"calc(100% - 205px)";
-    a { color: #0777b3; }
-    @media @mobile { display: block; width: 100%; }
-  }
-}
-
+@highlight: #D06723;
 
 .stickyNav {
   position: fixed;
   top: 0;
-  background-color: #ccc;
+  background-color: #ddd;
   padding: 5px;
   width: 100%;
   -webkit-transition: opacity .7s;
   transition: opacity .7s;
+  z-index: 10;
   // opacity: 0;
 
   &.show {
@@ -64,41 +23,61 @@
     max-width: 900px;
     margin: auto;
     font-family: @df-sans;
-    font-size: 16px;
+    font-size: 0px;
 
     .grid {
       display: inline-block;
+      width: 25%;
+      font-size: 16px;
+      padding-right: 15px;
+      vertical-align: top;
+
+      @media @tablet {
+        // width: auto;
+        padding-right: 0px;
+        padding-left: 10px;
+        border-left: 1px solid #707070;
+      }
+    }
+
+    .grid:first-child {
+      text-align: right;
+      @media @tablet {
+        padding-left: 0px;
+        text-align: left;
+        border-left: none;
+      }
     }
 
     span {
 
       .square {
-        width: 13px;
-        height: 13px;
+        font-family: monospace;
+        width: 19px;
+        height: 19px;
+        font-size: 15px;
+        // padding: 1px;
         margin-right: 3px;
-        line-height: 0.75em;
+        line-height: 1.3em;
         color: white;
         text-align: center;
         // background-color: blue;
         display: inline-block;
+        cursor: pointer;
       }
+
       &#kept { .square { background-color: green; } }
-      &#partial { .square { background-color: green; } }
-      &#broken { .square { background-color: red; } }
+      &#partial { .square { background-color: #D06723; } }
+      &#broken { .square { background-color: #750F0F; } }
     }
   }
-}
-
-.storyText {
-  max-width: 700px;
-  margin: auto;
 }
 
 .promise {
   width: 100%;
   font-size: 0px;
   // height: 100vh;
-  margin-top: 10vh;
+  margin-top: 20px;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   background-color: #efefef;
@@ -108,59 +87,56 @@
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 16px;
+    line-height: 1.3em;
 
     &.yes { color: green; }
-    &.partial { color: orange; }
-    &.no { color: red; }
+    &.partial { color: #D06723; }
+    &.no { color: #750F0F; }
   }
 
   .goal, .kept {
-    font-size: 20px;
-
-    // width: 50%;
-    // display: inline-block;
     vertical-align: top;
-    // position: -webkit-sticky;
-    // position: sticky;
-    // top: 30px;
+  }
 
-    // max-width: 700px;
-    // margin: auto;
-    // margin-bottom: 20vh;
-  }
-  .text {
-    font-size: 20px;
-    // width: 50%;
-  }
   .goal {
+    font-size: 40px;
+    line-height: 1.2em;
     // background-color: lightblue;
     color: white;
-    padding: 30px;
+    padding: 20px 10px 10px 10px;
     text-align: center;
     font-weight: bold;
     font-family: @df-sans;
 
+    @media @tablet {
+      font-size: 30px;
+    }
+
     &.blue { background-color: #7d9199; }
     &.green { background-color: #6d7c79; }
+    &.purple { background-color: #7d8399; }
 
-    .source {
-      // color: @df-middle-gray;
-      // color: white;
-      font-style: italic;
-      font-size: 14px;
-      font-weight: normal;
-      a { color: white; }
-    }
+
     .text {
-      font-size: 2em;
       max-width: 1000px;
       margin: auto;
       // width: 50%;
+      .source {
+        font-style: italic;
+        font-size: 15px;
+        font-weight: normal;
+        margin-top: 10px;
+        line-height: 1.1em;
+        a {
+          color: white;
+        }
+      }
     }
   }
+
   .kept {
-    padding-bottom: 10vh;
-    padding-top: 10vh;
+    padding-bottom: 35px;
+    padding-top: 30px;
     text-align: center;
     // font-weight: bold;
     font-family: @df-sans;
@@ -171,83 +147,97 @@
     .text {
       max-width: 700px;
       margin: auto;
+      font-size: 20px;
+
+      @media @tablet {
+        font-size: 19px;
+        padding: 0px 10px;
+      }
       // text-align: left;
     }
-
 
     &.show {
       opacity: 1;
     }
 
-
-
     .line {
       margin-top: 15px;
+      @media tablet { line-height: 1.2em; }
       // font-size: 1.5em;
       display: block;
-
       &.bump { margin-top: 30px; }
-
+      .highlight {
+        &.orange { color: #D06723; }
+        &.red { color: #750F0F; }
+        &.green { color: green; }
+      }
       div {
-        .highlight { color: @highlight; }
-
-        &.hotel {
-          letter-spacing: 2px;
-          font-size: 1.5em;
-          .seven {
-            border-bottom: 1px solid black;
-            position: relative;
-            display: inline-block;
-            margin-right: 5px;
-          }
-          .seven::after {
-            content: "GOAL";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-            bottom: 0;
-            height: 0px;
-            text-align: center;
-            font-size: 14px;
-            font-weight: bold;
-          }
-          .extra {
-            letter-spacing: 2px;
-            border-bottom: 1px solid black;
-            position: relative;
-            display: inline-block;
-          }
-          .extra::after {
-            content: "+";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-            bottom: 0;
-            height: 11px;
-            text-align: center;
-          }
-        }
 
       }
     }
+  }
+}
 
 
+// Promise 1 //
+  .line div {
+    &.hotel {
+      letter-spacing: 2px;
+      font-size: 1.5em;
+      @media (max-width: 389px) {
+        font-size: 1.3em;
+      }
+      .seven {
+        border-bottom: 1px solid black;
+        position: relative;
+        display: inline-block;
+        margin-right: 5px;
+      }
+      .seven::after {
+        content: "GOAL";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 0;
+        height: 0px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .extra {
+        letter-spacing: 2px;
+        border-bottom: 1px solid black;
+        position: relative;
+        display: inline-block;
+
+      }
+      .extra::after {
+        content: "+";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 0;
+        height: 11px;
+        text-align: center;
+      }
+    }
   }
 
-}
 
-.barCon {
 
-}
-
+// Promise 2 //
 .barChart {
   width: 100%;
   height: 40px;
   background-color: #aaa;
+
+  @media @tablet {
+    width: 91%;
+  }
 
   .bar {
     width: 100%;
@@ -264,9 +254,9 @@
     &.One80 {
       background-size: 11.25% 100%;
       background-repeat: no-repeat;
-      background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(0,@highlight));
-      background-image: -webkit-linear-gradient(top,transparent,@highlight 0);
-      background-image: linear-gradient(180deg,transparent, @highlight 0);
+      background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(0,#750F0F));
+      background-image: -webkit-linear-gradient(top,transparent,#750F0F 0);
+      background-image: linear-gradient(180deg,transparent, #750F0F 0);
     }
 
   }
@@ -286,6 +276,217 @@
       });
 
       .each:nth-child(8) {
+        color: #aaa;
+      }
+  }
+}
+
+// promise 3 //
+
+.barChart4 {
+  width: 100%;
+  height: 40px;
+  background-color: #aaa;
+
+  @media @tablet {
+    width: 91%;
+  }
+
+  .bar4 {
+    width: 100%;
+    height: 100%;
+
+    &.twoFifteen {
+      background-size: 43% 100%;
+      background-repeat: no-repeat;
+      background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(0,#D06723));
+      background-image: -webkit-linear-gradient(top,transparent,#D06723 0);
+      background-image: linear-gradient(180deg,transparent, #D06723 0);
+    }
+
+  }
+
+  .valueLines4 {
+    position: relative;
+    font-size: 14px;
+    color: #efefef;
+
+      each(range(5), {
+        .each:nth-child(@{value}) {
+          border-left: 1px solid #efefef;
+          padding: 10px 0px 9px 3px;
+          position: absolute;
+          left: (@value * 20%);
+        }
+      });
+
+      .each:nth-child(5) {
+        color: #aaa;
+      }
+  }
+}
+
+// promise 5 //
+
+.sinks {
+  font-size: 2.5em;
+  vertical-align: top;
+  line-height: 1rem;
+  margin-top: 10px;
+  .eachSink {
+    display: inline-block;
+  }
+  .address {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #750F0F;
+  }
+}
+
+// promise 6 //
+
+.line .apartment, .line .person-slash {
+  // letter-spacing: 2px;
+  font-size: 2.2em;
+}
+
+.line .apartment {
+  margin-top: 10px;
+  // font-size: 1.2em
+  .eachApt {
+    vertical-align: top;
+    display: inline-block;
+    padding: 3px 4px;
+    line-height: 1rem;
+    .address {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #825639;
+    }
+  }
+}
+
+// promise 7 //
+
+.line .hotelSeven {
+  font-size: 2em;
+  margin-top: 10px;
+
+  .eachHotel {
+    vertical-align: top;
+    display: inline-block;
+    padding: 3px 4px;
+    line-height: 1rem;
+    .address {
+      margin-top: 5px;
+      font-size: 14px;
+      color: #024c02;
+    }
+  }
+}
+
+// promise 8 //
+.bed {
+  vertical-align: middle;
+  font-size: 2.8em;
+  i { vertical-align: middle; }
+  .sixty {
+    vertical-align: middle;
+    font-size: 20px;
+    span {
+      font-weight: bold;
+      font-size: 26px;
+    }
+  }
+}
+
+// promise 10 //
+
+.barChart3 {
+  width: 100%;
+  height: 40px;
+  background-color: #aaa;
+
+  @media @tablet {
+    width: 91%;
+  }
+
+  .bar3 {
+    width: 100%;
+    height: 100%;
+
+    &.OneFourFive {
+      background-size: 24.2% 100%;
+      background-repeat: no-repeat;
+      background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(0,#D06723));
+      background-image: -webkit-linear-gradient(top,transparent,#D06723 0);
+      background-image: linear-gradient(180deg,transparent, #D06723 0);
+    }
+
+  }
+
+  .valueLines3 {
+    position: relative;
+    font-size: 14px;
+    color: #efefef;
+
+      each(range(6), {
+        .each:nth-child(@{value}) {
+          border-left: 1px solid #efefef;
+          padding: 10px 0px 9px 3px;
+          position: absolute;
+          left: (@value * 16.7%);
+        }
+      });
+
+      .each:nth-child(6) {
+        color: #aaa;
+      }
+  }
+}
+
+
+
+// promise 11 //
+
+.barChart2 {
+  width: 100%;
+  height: 40px;
+  background-color: #aaa;
+
+  @media @tablet {
+    width: 91%;
+  }
+
+  .bar2 {
+    width: 100%;
+    height: 100%;
+
+    &.FourPointFive {
+      background-size: 30% 100%;
+      background-repeat: no-repeat;
+      background-image: -webkit-gradient(linear,left top,left bottom,from(transparent),color-stop(0,#750F0F));
+      background-image: -webkit-linear-gradient(top,transparent,#750F0F 0);
+      background-image: linear-gradient(180deg,transparent, #750F0F 0);
+    }
+
+  }
+
+  .valueLines2 {
+    position: relative;
+    font-size: 14px;
+    color: #efefef;
+
+      each(range(3), {
+        .each:nth-child(@{value}) {
+          border-left: 1px solid #efefef;
+          padding: 10px 0px 9px 3px;
+          position: absolute;
+          left: (@value * 33.3%);
+        }
+      });
+
+      .each:nth-child(3) {
         color: #aaa;
       }
   }

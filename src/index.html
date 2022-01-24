@@ -25,7 +25,7 @@
       <!-- content goes here -->
       <div class="stickyNav">
         <div class="navtext">
-          <div class="grid"><b>Promises</b></div>
+          <div class="grid"><b>PROMISES:</b></div>
           <div class="grid">Kept <span id="kept"></span></div>
           <div class="grid">Partial <span id="partial"></span></div>
           <div class="grid">Broken <span id="broken"></span></div>
@@ -35,7 +35,14 @@
       <%=  t.include("partials/_ad.html", {number: 1}) %>
 
       <div class="headTreatment">
-        Some header idea here
+        <div>
+           <img alt="Traffic on Interstate 5 whizzes past tents near North Seattle College in April. (Ellen M. Banner / The Seattle Times)"
+           srcset="assets/head.jpg  1000w,
+                 assets/head-mobile.jpg 450w"
+           sizes="(max-width: 500px) 33vw, 100vw"
+           src="assets/head-mobile.jpg">
+           <div class="data-source padMe" style="margin-top: 5px;">Traffic on Interstate 5 whizzes past tents near North Seattle College in April. (Ellen M. Banner / The Seattle Times)</div>
+         </div>
 
         <h1>Promises made, promises kept</h1>
       </div>
@@ -64,19 +71,33 @@
       <%=  t.include("partials/_ad.html", {number: 3}) %>
 
       <div class="storyText">
-
-      <h2 class="header">King County</h2>
-      <% doc.KingCounty.forEach(function(s,i) { %>
-        <p class="body-text"><%= s.value %></p>
-      <% }) %>
+        <h2 class="header">King County</h2>
       </div>
 
 
       <%= t.include("partials/promises/_promise1.html") %>
 
+      <div class="storyText">
+      <% doc.PromiseOne.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
       <%= t.include("partials/promises/_promise2.html") %>
 
+      <div class="storyText">
+      <% doc.PromiseTwo.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
       <%= t.include("partials/promises/_promise3.html") %>
+
+      <div class="storyText">
+      <% doc.PromiseThree.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
 
 
 
@@ -86,46 +107,75 @@
         <%= t.include("partials/_marketing.html", {type: "subscribe", placement: "footer"}) %>
 
         <h2 class="header">City of Seattle</h2>
-      <% doc.CityofSeattle.forEach(function(s,i) { %>
-        <p class="body-text"><%= s.value %></p>
-      <% }) %>
       </div>
 
       <%= t.include("partials/promises/_promise4.html") %>
 
-      <%= t.include("partials/promises/_promise5.html") %>
-
-      <%= t.include("partials/promises/_promise6.html") %>
-
-
-
-
       <div class="storyText">
-      <h2 class="sub_header">Shelter surge</h2>
-      <% doc.ShelterSurge.forEach(function(s,i) { %>
+      <% doc.PromiseFour.forEach(function(s,i) { %>
         <p class="body-text"><%= s.value %></p>
       <% }) %>
       </div>
 
+      <%= t.include("partials/promises/_promise5.html") %>
+
+      <div class="storyText">
+      <% doc.PromiseFive.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
+      <%= t.include("partials/promises/_promise6.html") %>
+
+      <div class="storyText">
+      <% doc.PromiseSix.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
+
+
+
+      <div class="storyText">
+        <h2 class="sub_header purple">Shelter surge</h2>
+      </div>
+
       <%= t.include("partials/promises/_promise7.html") %>
 
+      <div class="storyText">
+      <% doc.PromiseSeven.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
       <%= t.include("partials/promises/_promise8.html") %>
+
+      <div class="storyText">
+      <% doc.PromiseEight.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
 
       <%= t.include("partials/promises/_promise9.html") %>
 
       <div class="storyText">
-      <% doc.CityofSeattle.forEach(function(s,i) { %>
+      <% doc.PromiseNine.forEach(function(s,i) { %>
         <p class="body-text"><%= s.value %></p>
       <% }) %>
       </div>
 
       <%= t.include("partials/promises/_promise10.html") %>
 
+      <div class="storyText">
+      <% doc.PromiseTen.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
+
       <%= t.include("partials/promises/_promise11.html") %>
 
-
       <div class="storyText">
-      <% doc.Ending.forEach(function(s,i) { %>
+      <% doc.PromiseEleven.forEach(function(s,i) { %>
         <p class="body-text"><%= s.value %></p>
       <% }) %>
       </div>
@@ -137,10 +187,6 @@
       <%= t.include("partials/_navBottom.html") %>
 
     </responsive-child>
-
-    <script type="text/javascript" src="assets/modernizr.js"></script>
-    <script src="assets/anim-event.min.js"></script>
-    <script src="assets/leader-line.min.js" async></script>
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
     <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
