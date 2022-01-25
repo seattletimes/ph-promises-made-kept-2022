@@ -89,12 +89,12 @@
     font-size: 16px;
     line-height: 1.3em;
 
-    &.yes { color: green; }
+    &.kept { color: green; }
     &.partial { color: #D06723; }
-    &.no { color: #750F0F; }
+    &.broken { color: #750F0F; }
   }
 
-  .goal, .kept {
+  .goal, .outcome {
     vertical-align: top;
   }
 
@@ -134,7 +134,7 @@
     }
   }
 
-  .kept {
+  .outcome {
     padding-bottom: 35px;
     padding-top: 30px;
     text-align: center;
@@ -325,6 +325,63 @@
       }
   }
 }
+
+// promise 4 //
+
+.tinyVillage {
+  font-size: 2.5em;
+  vertical-align: top;
+  line-height: 1rem;
+  margin-top: 10px;
+  .eachVillage {
+    vertical-align: top;
+    display: inline-block;
+  }
+  .address {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #024c02;
+  }
+
+  .existing {
+    display: inline-block;
+    border-bottom: 1px solid black;
+    position: relative;
+
+    @media @mobile {
+      margin-bottom: 25px;
+    }
+  }
+
+  .existing::after {
+    content: "existing";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    height: 0px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+.capacity {
+  // display: inline-block;
+  vertical-align: middle;
+  font-size: 2.5em;
+  i { vertical-align: middle; }
+  .thirty {
+    vertical-align: middle;
+    font-size: 20px;
+    span {
+      font-weight: bold;
+      font-size: 26px;
+    }
+  }
+}
+
 
 // promise 5 //
 

@@ -37,8 +37,8 @@
       <div class="headTreatment">
         <div>
            <img alt="Traffic on Interstate 5 whizzes past tents near North Seattle College in April. (Ellen M. Banner / The Seattle Times)"
-           srcset="assets/head.jpg  1000w,
-                 assets/head-mobile.jpg 450w"
+           srcset="assets/header.jpg  1000w,
+                 assets/header-mobile.jpg 450w"
            sizes="(max-width: 500px) 33vw, 100vw"
            src="assets/head-mobile.jpg">
            <div class="data-source padMe" style="margin-top: 5px;">Traffic on Interstate 5 whizzes past tents near North Seattle College in April. (Ellen M. Banner / The Seattle Times)</div>
@@ -181,6 +181,8 @@
       </div>
 
       <%=  t.include("partials/_ad.html", {number: 2}) %>
+
+      <%=   t.include("partials/_credits.html") %>
 
       <%=   t.include("partials/_dontMiss.html") %>
 
