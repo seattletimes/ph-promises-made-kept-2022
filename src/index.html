@@ -23,18 +23,11 @@
 
       <%= t.include("partials/_nav.html") %>
       <!-- content goes here -->
-      <div class="stickyNav">
-        <div class="navtext">
-          <div class="grid"><b>PROMISES:</b></div>
-          <div class="grid">Kept <span id="kept"></span></div>
-          <div class="grid">Partial <span id="partial"></span></div>
-          <div class="grid">Broken <span id="broken"></span></div>
-        </div>
-      </div>
 
       <%=  t.include("partials/_ad.html", {number: 1}) %>
 
       <div class="headTreatment">
+        <h1>Promises made, but promises kept? A review of Seattle, King County’s homelessness initiatives</h1>
         <div>
            <img alt="Traffic on Interstate 5 whizzes past tents near North Seattle College in April. (Ellen M. Banner / The Seattle Times)"
            srcset="assets/header.jpg  1000w,
@@ -44,7 +37,15 @@
            <div class="data-source padMe" style="margin-top: 5px;">Traffic on Interstate 5 whizzes past tents near North Seattle College in April. (Ellen M. Banner / The Seattle Times)</div>
          </div>
 
-        <h1>Promises made, but promises kept? A review of Seattle, King County’s homelessness initiatives</h1>
+      </div>
+
+      <div class="stickyNav">
+        <div class="navtext">
+          <div class="grid"><b>PROMISES:</b></div>
+          <div class="grid">Kept <span id="kept"></span></div>
+          <div class="grid">Partial <span id="partial"></span></div>
+          <div class="grid">Broken <span id="broken"></span></div>
+        </div>
       </div>
 
       <div class="storyText">
