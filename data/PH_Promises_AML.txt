@@ -3,45 +3,46 @@ Some text here
 []
 
 [+PromiseOne]
-Some text here
+King County used money from a 0.1% sales tax, called Health Through Housing, to exceed its planned eight property acquisitions in 2021. The tax, which passed in October 2020, was created to quickly purchase housing for people who are chronically homeless.
 []
 
 [+PromiseTwo]
-Some text here
+Currently, the county is using only two of its nine Health Through Housing properties to shelter chronically homeless people. Two more hotels are being used by the county to shelter Afghan refugees and people dealing with COVID-19.
+Once those two hotels are through with their emergency use purposes, they’ll house homeless people as the county works to open the other five properties, according to Sherry Hamilton, spokesperson for King County’s Department of Community and Human Services.
 []
 
 [+PromiseThree]
-Some text here
+King County officials say that new and increasingly contagious variants of the coronavirus have slowed their ability to bring people inside. “For our provider network, the substantial staff challenges include not just hiring new staff for new shelter and housing, but keeping the existing staff healthy and able to report to work,” Hamilton said. The county has housed 69 people in hotels, shelters and other places on top of the 180 in the two opened hotels.
 []
 
 [+PromiseFour]
-Some text here
+Adding two new villages to Seattle’s tiny house landscape and expanding Interbay has increased the city’s tiny house count by 106 units and helped 123 people come inside. The nonprofit Low Income Housing Institute manages these three sites and seven other tiny house villages in Seattle.
 []
 
 [+PromiseFive]
-Some text here
+When businesses, libraries and other public spaces closed down at the beginning of the pandemic, it cut off many of the spaces that people living unsheltered rely on to meet their hygiene needs. Real Change, Seattle’s street newspaper and homeless advocacy organization, worked with architects to design affordable and easy to assemble street sinks. But after more than a year since the City Council set aside the funds, the project has run into many unanticipated bureaucratic hurdles and red tape, according to Tiffani McCoy, advocacy director for Real Change.
 []
 
 [+PromiseSix]
-Some text here
+Seattle provided half of the funding to purchase all three buildings. The Low Income Housing Institute purchased two of the buildings — Boylston and Broadway — in December, and it’s waiting on the third building to finish construction in March. People began moving into the Boylston apartments Jan. 12. In total, the three new buildings will add 166 affordable-housing units for people exiting homelessness.
 []
 
 [+PromiseSeven]
-Some text here
+In March, Seattle announced that it was leasing two hotels for one year to offer enhanced shelter to chronically homeless people. That program is ending in January, and the homeless service organizations who have been operating the hotel programs — the Low Income Housing Institute and Chief Seattle Club — are trying to help people move into recently built permanent supportive housing that they own and operate.
 []
 
 [+PromiseEight]
-Some text here
+As part of a “shelter surge” plan, then-Seattle Mayor Jenny Durkan announced in the fall of 2020, a new 24-hour shelter opened in Seattle First Presbyterian Church located on First Hill. The shelter originally opened as an emergency weather shelter during a large snowstorm in February 2021 and then opened as a fully operational shelter that May. WHEEL — the Women’s Housing Equality and Enhancement League — operates the program.
 []
 
 [+PromiseNine]
-Some text here
+Another large piece of Seattle’s proposed “shelter surge” focused on providing temporary financial support to help people transition from city-leased hotel shelter into permanent housing. The city said it wanted to move as many as 231 people into permanent housing using $2.3 million. The city is currently unable to provide a full accounting of how much has been spent, saying it is waiting for both hotels to shut down. People working on the ground in the two hotels say that using the money has been challenging for a number of reasons. The Low Income Housing Institute, one of the organizations running the hotel shelter program, says that only 33 people have used the money so far.
 []
 
 [+PromiseTen]
-Some text here
+In August 2020, Seattle said it would use all of the rental production and preservation funds from the voter-approved Seattle Housing Levy through 2021 to make an upfront $60 million investment in six new affordable-housing buildings to create 599 units for chronically homeless people. At the time of the announcement, the city estimated that 496 units could be completed by the end of 2021. But so far, only one building is nearing the end of construction to open in early 2022 with 66 units. Two additional buildings are being built, and the three remaining projects are working through the permitting stages to begin construction in 2022.
 []
 
 [+PromiseEleven]
-Some text here
+In January 2021, Seattle City Councilmember Andrew Lewis announced that he wanted to double the city’s tiny house stock within one year, building 480 tiny homes in just 12 months. At the time of the announcement, Lewis had $1 million in hand and was hoping to secure $14 million more in private and public funding. So far he’s been able to grow the funding base, but no additional tiny homes have been built. At the time of his announcement, three tiny house villages (which were completed this fall) were already in the works by the city of Seattle, so they aren’t counted in this report.
 []

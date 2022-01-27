@@ -44,12 +44,12 @@
            <div class="data-source padMe" style="margin-top: 5px;">Traffic on Interstate 5 whizzes past tents near North Seattle College in April. (Ellen M. Banner / The Seattle Times)</div>
          </div>
 
-        <h1>Promises made, promises kept</h1>
+        <h1>Promises made, but promises kept? A review of Seattle, King County’s homelessness initiatives</h1>
       </div>
 
       <div class="storyText">
-        <p class="byline">By XXX</p>
-        <p class="staff-position">Seattle Times staff reporter</p>
+        <p class="byline">By Anna Patrick</p>
+        <p class="staff-position">Project Homeless engagement editor</p>
         <p class="publish-date">Published Jan. 30, 2022</p>
 
 
@@ -69,10 +69,6 @@
 
 
       <%=  t.include("partials/_ad.html", {number: 3}) %>
-
-      <div class="storyText">
-        <h2 class="header">King County</h2>
-      </div>
 
 
       <%= t.include("partials/promises/_promise1.html") %>
@@ -99,14 +95,8 @@
       <% }) %>
       </div>
 
-
-
-
-
       <div class="storyText">
         <%= t.include("partials/_marketing.html", {type: "subscribe", placement: "footer"}) %>
-
-        <h2 class="header">City of Seattle</h2>
       </div>
 
       <%= t.include("partials/promises/_promise4.html") %>
@@ -133,13 +123,6 @@
       <% }) %>
       </div>
 
-
-
-
-      <div class="storyText">
-        <h2 class="sub_header purple">Shelter surge</h2>
-      </div>
-
       <%= t.include("partials/promises/_promise7.html") %>
 
       <div class="storyText">
@@ -159,10 +142,10 @@
       <%= t.include("partials/promises/_promise9.html") %>
 
       <div class="storyText">
-      <% doc.PromiseNine.forEach(function(s,i) { %>
-        <p class="body-text"><%= s.value %></p>
-      <% }) %>
-      </div>
+        <% doc.PromiseNine.forEach(function(s,i) { %>
+          <p class="body-text"><%= s.value %></p>
+        <% }) %>
+        </div>
 
       <%= t.include("partials/promises/_promise10.html") %>
 

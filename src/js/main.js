@@ -61,7 +61,6 @@ $( document ).ready(function() {
   $( this ).find(".promise-number").append( i + 1 );
   });
 
-
   setTimeout(() => {
     makeWaypoints();
   }, 2500);
