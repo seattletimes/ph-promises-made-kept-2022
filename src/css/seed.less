@@ -74,13 +74,17 @@
 }
 
 .promise {
-  width: 100%;
+  width: 80%;
   font-size: 0px;
   // height: 100vh;
-  margin-top: 20px;
+  margin: 20px auto 0px;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   background-color: #efefef;
+
+  @media @mobile {
+    width: 100%;
+  }
 
   .status {
     text-transform: uppercase;
@@ -129,6 +133,10 @@
         line-height: 1.1em;
         a {
           color: white;
+
+          &:hover, &:focus {
+            color: black;
+          }
         }
       }
     }
