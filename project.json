@@ -6,17 +6,17 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2022/seattle-king-county-homeless-promises-outcomes/"
     }
   },
   "title": "Seattle, King County officials made lots of homelessness promises: See how they did",
   "description": "Since the beginning of the coronavirus pandemic, Seattle and King County have made a slew of promises to expand homeless housing and shelter capacity. Nearly two years into the pandemic, The Seattle Times is seeing how far they've made in their promises.",
-  "author": "",
-  "url": "",
-  "post_id": 0,
+  "author": "Anna Patrick",
+  "url": "https://projects.seattletimes.com/2022/seattle-king-county-homeless-promises-outcomes/",
+  "post_id": 14609310,
   "image": "assets/social.jpg",
   "sheets": [],
   "docs": ["10_oOOl56X2GvA_LfAHwMQ4ySPjyBCRhJ49teTm5-T4c"],
   "embedded": false,
-  "production": false
+  "production": true
 }
