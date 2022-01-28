@@ -1,5 +1,28 @@
 [+MainIntro]
-Some text here
+It started during the pandemic. Grand promises, made with increasing frequency, to safely house and shelter homeless people amid the threat of the coronavirus and inflow of federal money.
+Seattle City Councilmember Andrew Lewis wanted to double tiny houses in one year. King County Executive Dow Constantine vowed to bring 500 people living outside into shelter before the end of 2021. The city of Seattle was going to build nearly 600 units of affordable housing and fill nearly 500 of them by the end of the year.  
+But now that 2021 is over, The Seattle Times wants to know: How did they do? 
+[]
+
+[+MainIntro2]
+COVID-19 forced local governments to rethink how they address homelessness, realizing early on that traditional shelters with mats on the ground just inches apart would be a tinderbox for the airborne virus to spread. To help make substantial changes to the homelessness system, the region received a surge of federal dollars in pandemic stimulus aid. 
+And so far, both Seattle and King County have been able to make unprecedented and expansive capital investments to purchase hotels and apartment buildings in a short period of time.
+But after obtaining the properties, they’ve struggled to move into them anywhere near the number of homeless people they said they would.
+[]
+[+MainIntro3]
+For example, King County purchased nine properties in 2021 — seven hotels and two apartment buildings — but so far only two hotels are providing shelter to chronically homeless people. One more is currently sheltering Afghan refugees and another is providing a safe place for people with COVID-19 to isolate and quarantine.
+The other five properties remain vacant. 
+Seattle is in a similar position. In September, then-Mayor Jenny Durkan announced that the city would help buy three brand-new apartment buildings with the goal of filling them by the end of the year. But on the last day of 2021, no one was there. 
+In summer 2020, the city’s Office of Housing announced a plan to build six new affordable housing buildings with the goal of having 496 units ready for tenants by the end of 2021. Now, in the new year, the department is saying that one building in Greenwood with 66 units — about 13% of what was promised — will be ready for tenants “early this year." Two more are under construction and three are still in the permitting stages.   
+“Construction projects across the entire building sector, these affordable housing developments included, have faced unprecedented challenges and delays over the past two years, due to impacts from the pandemic,” said Stephanie Velasco, spokesperson for Seattle’s Office of Housing.
+Every county and city department cited similar pandemic-related problems — increased building costs, supply chain issues, not enough workers to staff the new hotels and apartment buildings. 
+“It continues to be true that the provider workforce is under immense strain while simultaneously doing some of our community’s most difficult work” said Sherry Hamilton, spokesperson for King County’s Department of Community and Human Services.
+Some delays are less cut and dry.  
+As part of Seattle’s “shelter surge,” the city set aside $2.3 million to provide rapid-rehousing dollars to help up to 231 people living in new shelters and hotels leased by the city move into permanent housing.
+The city was unable Friday to say how many rehousing dollars have been spent and are waiting for the hotel programs to close at the end of January to do a full accounting. An organization running one of the hotel programs, the Low Income Housing Institute, reported that only 33 people have taken advantage of the money. 
+“This is because the referrals from the HOPE team into the hotel of chronically homeless people swept from the parks and public places do not fit the profile of people who would succeed in (rapid rehousing),” said Josh Castle, spokesperson for LIHI.   
+Some projects, however, have met their goals on time. 
+In March, Seattle said it would lease two hotels for up to one year. It did and now the program is ending and most of the people in the program are transferring to permanent supportive housing.
 []
 
 [+PromiseOne]

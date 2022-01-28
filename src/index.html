@@ -29,12 +29,12 @@
       <div class="headTreatment">
         <h1>Promises made, but promises kept? A review of Seattle, King County’s homelessness initiatives</h1>
         <div>
-           <img alt="Traffic on Interstate 5 whizzes past tents near North Seattle College in April. (Ellen M. Banner / The Seattle Times)"
-           srcset="assets/header.jpg  1000w,
-                 assets/header-mobile.jpg 450w"
+           <img alt="Amina Dima is a village organizer and the first person you meet upon entering the new Rosie's Place Tiny House Village in the University District. The village was completed in the fall of 2021 and funded by the city of Seattle. (Steve Ringman / The Seattle Times)"
+           srcset="assets/01262022_dima_183923.jpg  1000w,
+                 assets/01262022_dima_183923.jpg 450w"
            sizes="(max-width: 500px) 33vw, 100vw"
-           src="assets/head-mobile.jpg">
-           <div class="data-source padMe" style="margin-top: 5px;">Traffic on Interstate 5 whizzes past tents near North Seattle College in April. (Ellen M. Banner / The Seattle Times)</div>
+           src="assets/01262022_dima_183923.jpg">
+           <div class="data-source padMe" style="margin-top: 5px;">Amina Dima is a village organizer and the first person you meet upon entering the new Rosie's Place Tiny House Village in the University District. The village was completed in the fall of 2021 and funded by the city of Seattle. (Steve Ringman / The Seattle Times)</div>
          </div>
 
       </div>
@@ -67,10 +67,28 @@
           </div>
         </div>
       </div>
+      
+      <div class="storyText">
+        <% doc.MainIntro2.forEach(function(s,i) { %>
+          <p class="body-text"><%= s.value %></p>
+        <% }) %>
+        </div>
 
+        <div class="storyText photo">
+          <img src="assets/01262022_tinyhouselaundry_184023.jpg" alt="A resident of Rosie's Place Tiny House Village stands at the entry way of the laundry facility. He goes by the name of Grand Master Shadow, is 27, and has been homeless on and off since 2013. (Steve Ringman / The Seattle Times)">
+          <div class="data-source padMe">A resident of Rosie's Place Tiny House Village stands at the entry way of the laundry facility. He goes by the name of Grand Master Shadow, is 27, and has been homeless on and off since 2013. (Steve Ringman / The Seattle Times)</div>
+      </div>
+        
+        <div class="storyText">
+      <% doc.MainIntro3.forEach(function(s,i) { %>
+        <p class="body-text"><%= s.value %></p>
+      <% }) %>
+      </div>
 
-      <%=  t.include("partials/_ad.html", {number: 3}) %>
-
+      <div class="storyText photo">
+          <img src="assets/01262022_tinyhouse_183852.jpg" alt="Ira Washington, 46, is moving out of Rosie's Place Tiny House Village and transitioning into a permanent apartment. Before he moved to the village, he spent most of the last two years living in a tent in Licton Springs Park. (Steve Ringman / The Seattle Times)">
+          <div class="data-source padMe">Ira Washington, 46, is moving out of Rosie's Place Tiny House Village and transitioning into a permanent apartment. Before he moved to the village, he spent most of the last two years living in a tent in Licton Springs Park. (Steve Ringman / The Seattle Times)</div>
+      </div>
 
       <%= t.include("partials/promises/_promise1.html") %>
 
@@ -108,6 +126,11 @@
       <% }) %>
       </div>
 
+      <div class="storyText photo">
+        <img src="assets/01262022_tinyhousevillage_183506.jpg" alt="Rosie's Place Tiny House Village sits on a busy block in the University District between 11th Ave. NE, NE 45th St. and Roosevelt Way NE. The recently constructed village has 35 tiny houses. (Steve Ringman / The Seattle Times)">
+        <div class="data-source padMe">Rosie's Place Tiny House Village sits on a busy block in the University District between 11th Ave. NE, NE 45th St. and Roosevelt Way NE. The recently constructed village has 35 tiny houses. (Steve Ringman / The Seattle Times)</div>
+    </div>
+
       <%= t.include("partials/promises/_promise5.html") %>
 
       <div class="storyText">
@@ -115,6 +138,15 @@
         <p class="body-text"><%= s.value %></p>
       <% }) %>
       </div>
+
+      <div class="storyText photo">
+        <img src="assets/01262022_sink_183755.jpg" alt="Starting in November 2020, the Seattle City Council earmarked $100,000 to quickly set up dozens of new outdoor sinks around the city to support homeless residents’ hygiene needs. By the end of 2021, only two sinks had been installed, including this one, which is located outside of University Heights Center in University District. (Steve Ringman / The Seattle Times)">
+        <div class="data-source padMe">Starting in November 2020, the Seattle City Council earmarked $100,000 to quickly set up dozens of new outdoor sinks around the city to support homeless residents’ hygiene needs. By the end of 2021, only two sinks had been installed, including this one, which is located outside of University Heights Center in University District. (Steve Ringman / The Seattle Times)</div>
+    </div>
+
+    <div class="ad">
+      <%=  t.include("partials/_ad.html", {number: 3}) %>
+    </div>
 
       <%= t.include("partials/promises/_promise6.html") %>
 
