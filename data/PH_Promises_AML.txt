@@ -1,7 +1,7 @@
 [+MainIntro]
 It started during the pandemic. Grand promises, made with increasing frequency, to safely house and shelter homeless people amid the threat of the coronavirus and inflow of federal money.
 Seattle City Councilmember Andrew Lewis wanted to double tiny houses in one year. King County Executive Dow Constantine vowed to bring 500 people living outside into shelter before the end of 2021. The city of Seattle was going to build nearly 600 units of affordable housing and fill nearly 500 of them by the end of the year.  
-But now that 2021 is over, The Seattle Times wants to know: How did they do? 
+But now that 2021 is over, The Seattle Times wants to know: How did they do?
 []
 
 [+MainIntro2]
@@ -16,10 +16,10 @@ Seattle is in a similar position. In September, then-Mayor Jenny Durkan announce
 In summer 2020, the city’s Office of Housing announced a plan to build six new affordable housing buildings with the goal of having 496 units ready for tenants by the end of 2021. Now, in the new year, the department is saying that one building in Greenwood with 66 units — about 13% of what was promised — will be ready for tenants “early this year." Two more are under construction and three are still in the permitting stages.   
 “Construction projects across the entire building sector, these affordable housing developments included, have faced unprecedented challenges and delays over the past two years, due to impacts from the pandemic,” said Stephanie Velasco, spokesperson for Seattle’s Office of Housing.
 Every county and city department cited similar pandemic-related problems — increased building costs, supply chain issues, not enough workers to staff the new hotels and apartment buildings. 
-“It continues to be true that the provider workforce is under immense strain while simultaneously doing some of our community’s most difficult work” said Sherry Hamilton, spokesperson for King County’s Department of Community and Human Services.
+“It continues to be true that the provider workforce is under immense strain while simultaneously doing some of our community’s most difficult work,” said Sherry Hamilton, spokesperson for King County’s Department of Community and Human Services.
 Some delays are less cut and dry.  
 As part of Seattle’s “shelter surge,” the city set aside $2.3 million to provide rapid-rehousing dollars to help up to 231 people living in new shelters and hotels leased by the city move into permanent housing.
-The city was unable to say how many rehousing dollars have been spent and are waiting for the hotel programs to close at the end of January to do a full accounting. An organization running one of the hotel programs, the Low Income Housing Institute, reported that only 33 people have taken advantage of the money. 
+The city was unable to say how many rehousing dollars have been spent and is waiting for the hotel programs to close at the end of January to do a full accounting. An organization running one of the hotel programs, the Low Income Housing Institute, reported that only 33 people have taken advantage of the money. 
 “This is because the referrals from the HOPE team into the hotel of chronically homeless people swept from the parks and public places do not fit the profile of people who would succeed in (rapid rehousing),” said Josh Castle, spokesperson for LIHI.   
 Some projects, however, have met their goals on time. 
 In March, Seattle said it would lease two hotels for up to one year. It did and now the program is ending and most of the people in the program are transferring to permanent supportive housing.
@@ -31,11 +31,11 @@ King County used money from a 0.1% sales tax, called Health Through Housing, to 
 
 [+PromiseTwo]
 Currently, the county is using only two of its nine Health Through Housing properties to shelter chronically homeless people. Two more hotels are being used by the county to shelter Afghan refugees and people dealing with COVID-19.
-Once those two hotels are through with their emergency use purposes, they’ll house homeless people as the county works to open the other five properties, according to Sherry Hamilton, spokesperson for King County’s Department of Community and Human Services.
+Once those two hotels are through with their emergency-use purposes, they’ll house homeless people as the county works to open the other five properties, according to Sherry Hamilton, spokesperson for King County’s Department of Community and Human Services.
 []
 
 [+PromiseThree]
-King County officials say that new and increasingly contagious variants of the coronavirus have slowed their ability to bring people inside. “For our provider network, the substantial staff challenges include not just hiring new staff for new shelter and housing, but keeping the existing staff healthy and able to report to work,” Hamilton said. The county has housed 69 people in hotels, shelters and other places on top of the 180 in the two opened hotels.
+King County officials say that new and increasingly contagious variants of the coronavirus have slowed their ability to bring people inside. “For our provider network, the substantial staff challenges include not just hiring new staff for new shelter and housing, but keeping the existing staff healthy and able to report to work,” Hamilton said. The county has housed 69 people in other hotels, shelters and other places, in addition to  the 180 in the two opened hotels.
 []
 
 [+PromiseFour]
@@ -43,7 +43,7 @@ Adding two new villages to Seattle’s tiny house landscape and expanding Interb
 []
 
 [+PromiseFive]
-When businesses, libraries and other public spaces closed down at the beginning of the pandemic, it cut off many of the spaces that people living unsheltered rely on to meet their hygiene needs. Real Change, Seattle’s street newspaper and homeless advocacy organization, worked with architects to design affordable and easy to assemble street sinks. But more than a year since the City Council set aside the funds, the project has run into many unanticipated bureaucratic hurdles and red tape, according to Tiffani McCoy, advocacy director for Real Change.
+When businesses, libraries and other public spaces closed down at the beginning of the pandemic, it cut off many of the spaces that people living unsheltered rely on to meet their hygiene needs. Real Change, Seattle’s street newspaper and homeless advocacy organization, worked with architects to design affordable and easy-to-assemble street sinks. But more than a year since the City Council set aside the funds, the project has run into many unanticipated bureaucratic hurdles and red tape, according to Tiffani McCoy, advocacy director for Real Change.
 []
 
 [+PromiseSix]
